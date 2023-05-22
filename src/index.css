@@ -1,0 +1,109 @@
+
+
+body{
+    background: rgb(240, 233, 253);
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.title{
+    font-size: 2.5rem;
+    margin: 4rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 200;
+}
+
+.container-warp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-col{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.container-background{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem  1rem 0 0;
+
+}
+
+.Bg-title{
+    writing-mode: vertical-rl;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 4rem;
+    border-radius: 0  0 1rem  1rem;
+    cursor: pointer;
+}
+
+.footer-title{
+    margin-left: 1rem;
+}
+.icons{
+    margin-left: 1rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+}
+
+.copie-modal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+}
+
+.icons-modal{
+    width: 2rem;
+    margin-right: 0.2rem;
+}
+
+.copie-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    background-color: white;
+    color: rgb(62, 62, 62);
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .container-warp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+    .title{
+        font-size: 2rem;
+        margin: 1.7rem;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 200;
+    } 
+
+
+
+    .copie-title{
+        margin-left: 0;
+    }
+}

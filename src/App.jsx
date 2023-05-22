@@ -13,10 +13,10 @@ function App() {
         setCopied(true);
         setTimeout(() => {
           setCopied(false);
-        }, 2000); // Restablecer el estado de 'copied' después de 2 segundos
+        }, 2000);
       })
       .catch((error) => {
-        console.error("Error al copiar al portapapeles:", error);
+        console.error("Error copie:", error);
       });
   };
 
@@ -24,7 +24,11 @@ function App() {
     <>
       <div className="container-warp">
         {linearGradients.map((data) => (
-          <div className="container-col" key={data.id}>
+          <div
+            onClick={() => handleCopie(data.copie)}
+            className="container-col"
+            key={data.id}
+          >
             <div
               className="container-background"
               style={{
@@ -34,10 +38,7 @@ function App() {
               <p className="Bg-title">{data.name}</p>
             </div>
 
-            <div
-              onClick={() => handleCopie(data.copie)}
-              className="container-footer"
-            >
+            <div className="container-footer">
               <p className="footer-title">{data.color}</p>
               <img className="icons" src={icons} alt="GIF animado" />
             </div>
@@ -47,7 +48,7 @@ function App() {
           <div className="copie-modal">
             <p className="copie-title">
               <img className="icons-modal" src={Check} alt="check" />
-              Texto copiado al portapapeles.
+              Text copied to clipboard.
             </p>
           </div>
         )}

@@ -55,7 +55,7 @@ function CreateBackground() {
       <div className="container-text-generator">
         <h2
           className="title-generator"
-          style={{ color: isHighlighted === false ? "black" : "white" }}
+          style={{ color: isHighlighted === false ? "white" : "black" }}
         >
           Unleash your creativity and immerse yourself in a world of color with
           our custom linear gradient generator. Create stunning color

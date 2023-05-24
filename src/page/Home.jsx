@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(() => {
     const body = document.body;
-    body.style.background = changeBody ? "black" : "#f0e9fd";
+    body.style.background = changeBody ? "#f0e9fd" : "black";
     setIsHighlighted(changeBody);
   }, [changeBody, setIsHighlighted]);
 
@@ -24,7 +24,7 @@ function Home() {
         <div className="container-logo">
           <img className="logo" src={Logo} alt="logo" />
           <h1
-            style={{ color: changeBody === false ? "black" : "white" }}
+            style={{ color: changeBody === false ? "white" : "black" }}
             className="logo"
           >
             LinearGradients
@@ -33,13 +33,13 @@ function Home() {
         <button className="changebody" onClick={handleChangeBody}>
           {changeBody ? (
             <div className="container-icon-body">
-              <img className="icon-body" src={Sun} alt="" />
-              Light
+              <img className="icon-body" src={Moon} alt="moon" />
+              Dark
             </div>
           ) : (
             <div className="container-icon-body">
-              <img className="icon-body" src={Moon} alt="moon" />
-              Dark
+              <img className="icon-body" src={Sun} alt="" />
+              Light
             </div>
           )}
         </button>

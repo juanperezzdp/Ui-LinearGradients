@@ -88,6 +88,11 @@ function CreateBackground() {
               <option value="Yellow">Yellow</option>
               <option value="Green">Green</option>
               <option value="Orange">Orange</option>
+              <option value="Purple">Purple</option>
+              <option value="Pink">Pink</option>
+              <option value="Brown">Brown</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
             </select>
 
             <select
@@ -101,6 +106,11 @@ function CreateBackground() {
               <option value="Yellow">Yellow</option>
               <option value="Green">Green</option>
               <option value="Orange">Orange</option>
+              <option value="Purple">Purple</option>
+              <option value="Pink">Pink</option>
+              <option value="Brown">Brown</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
             </select>
           </div>
         </div>

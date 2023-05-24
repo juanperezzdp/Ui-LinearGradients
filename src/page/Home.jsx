@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Sun from "../img/sun.gif";
 import Moon from "../img/moon.gif";
+import Logo from "../img/logo.png";
 import { ColorContext } from "../Context/ContextColor";
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
   useEffect(() => {
     const body = document.body;
     body.style.background = changeBody ? "black" : "#f0e9fd";
-    setIsHighlighted(changeBody); // Actualiza el estado isHighlighted en el contexto
+    setIsHighlighted(changeBody);
   }, [changeBody, setIsHighlighted]);
 
   const handleChangeBody = () => {
@@ -20,12 +21,15 @@ function Home() {
   return (
     <div>
       <div className="container-logo">
-        <h1
-          style={{ color: changeBody === false ? "black" : "white" }}
-          className="logo"
-        >
-          Ui-LinearGradients
-        </h1>
+        <div className="container-logo">
+          <img className="logo" src={Logo} alt="logo" />
+          <h1
+            style={{ color: changeBody === false ? "black" : "white" }}
+            className="logo"
+          >
+            LinearGradients
+          </h1>
+        </div>
         <button className="changebody" onClick={handleChangeBody}>
           {changeBody ? (
             <div className="container-icon-body">

@@ -174,6 +174,167 @@ const linearGradients = [
       background: "linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%)",
       copie: "background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);"
     },
+    {
+      id: 26,
+      name: "Dg-26",
+      color: "#FF3F3F ➞ #063CFF",
+      background: "linear-gradient(220.55deg, #FF3F3F 0%, #063CFF 100%)",
+      copie: "background: linear-gradient(220.55deg, #FF3F3F 0%, #063CFF 100%);"
+    },
+    {
+      id: 27,
+      name: "Dg-27",
+      color: "#5D85A6 ➞ #0E2C5E",
+      background: "linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%)",
+      copie: "background: linear-gradient(220.55deg, #5D85A6 0%, #0E2C5E 100%);"
+    },
+    {
+      id: 28,
+      name: "Dg-28",
+      color: "#DEB5FF ➞ #6F00B3",
+      background: "linear-gradient(220.55deg, #DEB5FF 0%, #6F00B3 100%)",
+      copie: "background: linear-gradient(220.55deg, #DEB5FF 0%, #6F00B3 100%);"
+    },
+    {
+      id: 29,
+      name: "Dg-29",
+      color: "#FF5EEF ➞ #456EFF",
+      background: "linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%)",
+      copie: "background: linear-gradient(220.55deg, #FF5EEF 0%, #456EFF 100%);"
+    },
+    {
+      id: 30,
+      name: "Dg-30",
+      color: "#AFCCCB ➞ #616566",
+      background: "linear-gradient(220.55deg, #AFCCCB 0%, #616566 100%)",
+      copie: "background: linear-gradient(220.55deg, #AFCCCB 0%, #616566 100%);"
+    },
+    {
+      id: 31,
+      name: "Dg-31",
+      color: "#4063BC ➞ #6B0013",
+      background: "linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%)",
+      copie: "background: linear-gradient(220.55deg, #4063BC 0%, #6B0013 100%);"
+    },
+    {
+      id: 32,
+      name: "Dg-32",
+      color: "#FF5E98 ➞ #0F213E",
+      background: "linear-gradient(220.55deg, #FF5E98 0%, #0F213E 100%)",
+      copie: "background: linear-gradient(220.55deg, #FF5E98 0%, #0F213E 100%);"
+    },
+    {
+      id: 33,
+      name: "Dg-33",
+      color: "#FFF500 ➞ #FF00B8",
+      background: "linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%)",
+      copie: "background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);"
+    },
+    {
+      id: 34,
+      name: "Dg-34",
+      color: "#FFC328 ➞ #E20000",
+      background: "linear-gradient(220.55deg, #FFC328 0%, #E20000 100%)",
+      copie: "background: linear-gradient(220.55deg, #FFC328 0%, #E20000 100%);"
+    },
+    {
+      id: 35,
+      name: "Dg-35",
+      color: "#FFE70B ➞ #27B643",
+      background: "linear-gradient(220.55deg, #FFE70B 0%, #27B643 100%)",
+      copie: "background: linear-gradient(220.55deg, #FFE70B 0%, #27B643 100%);"
+    },
+    {
+      id: 36,
+      name: "Dg-36",
+      color: "#FFADF7 ➞ #B1FF96",
+      background: "linear-gradient(220.55deg, #FFADF7 0%, #B1FF96 100%)",
+      copie: "background: linear-gradient(220.55deg, #FFADF7 0%, #B1FF96 100%);"
+    },
+    {
+      id: 37,
+      name: "Dg-37",
+      color: "#61C695 ➞ #133114",
+      background: "linear-gradient(220.55deg, #61C695 0%, #133114 100%)",
+      copie: "background: linear-gradient(220.55deg, #61C695 0%, #133114 100%);"
+    },
+    {
+      id: 38,
+      name: "Dg-38",
+      color: "#B7DCFF ➞ #FFA4F6",
+      background: "linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%)",
+      copie: "background: linear-gradient(220.55deg, #B7DCFF 0%, #FFA4F6 100%);"
+    },
+    {
+      id: 39,
+      name: "Dg-39",
+      color: "#9F25FF ➞ #FF7A00",
+      background: "linear-gradient(220.55deg, #9F25FF 0%, #FF7A00 100%)",
+      copie: "background: linear-gradient(220.55deg, #9F25FF 0%, #FF7A00 100%);"
+    },
+    {
+      id: 40,
+      name: "Dg-40",
+      color: "#5EE2FF ➞ #00576A",
+      background: "linear-gradient(220.55deg, #5EE2FF 0%, #00576A 100%)",
+      copie: "background: linear-gradient(220.55deg, #5EE2FF 0%, #00576A 100%);"
+    },
+    {
+      id: 41,
+      name: "Dg-41",
+      color: "#FF0000 ➞ #470000",
+      background: "linear-gradient(220.55deg, #FF0000 0%, #470000 100%)",
+      copie: "background: linear-gradient(220.55deg, #FF0000 0%, #470000 100%);"
+    },
+    {
+      id: 42,
+      name: "Dg-42",
+      color: "#4643DF ➞ #0B0A47",
+      background: "linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%)",
+      copie: "background: linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%);"
+    },
+    {
+      id: 43,
+      name: "Dg-43",
+      color: "#D7003A ➞ #19087E",
+      background: "linear-gradient(220.55deg, #D7003A 0%, #19087E 100%)",
+      copie: "background: linear-gradient(220.55deg, #D7003A 0%, #19087E 100%);"
+    },
+    {
+      id: 44,
+      name: "Dg-44",
+      color: "#FADD76 ➞ #9F3311",
+      background: "linear-gradient(220.55deg, #FADD76 0%, #9F3311 100%)",
+      copie: "background: linear-gradient(220.55deg, #FADD76 0%, #9F3311 100%);"
+    },
+    {
+      id: 45,
+      name: "Dg-45",
+      color: "#00E0EE ➞ #AD00FE",
+      background: "linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%)",
+      copie: "background: linear-gradient(220.55deg, #00E0EE 0%, #AD00FE 100%);"
+    },
+    {
+      id: 46,
+      name: "Dg-46",
+      color: "#D0004B ➞ #88069D",
+      background: "linear-gradient(220.55deg, #D0004B 0%, #88069D 100%)",
+      copie: "background: linear-gradient(220.55deg, #D0004B 0%, #88069D 100%);"
+    },
+    {
+      id: 47,
+      name: "Dg-47",
+      color: "#FF8570 ➞ #418CB7",
+      background: "linear-gradient(220.55deg, #FF8570 0%, #418CB7 100%)",
+      copie: "background: linear-gradient(220.55deg, #FF8570 0%, #418CB7 100%);"
+    },
+    {
+      id: 48,
+      name: "Dg-48",
+      color: "#B9A14C ➞ #000000",
+      background: "linear-gradient(220.55deg, #B9A14C 0%, #000000 100%)",
+      copie: "background: linear-gradient(220.55deg, #B9A14C 0%, #000000 100%);"
+    },
 
   ];
   

@@ -64,6 +64,12 @@ option{
     border: 2px solid rgb(83, 83, 83);
     cursor: pointer;
 }
+.container-logo{
+    display: flex;
+}
+.logo{
+    width:4rem;
+}
 .changebody:hover{
     border: 2px solid dodgerblue;
 }

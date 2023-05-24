@@ -68,7 +68,7 @@ option{
     display: flex;
 }
 .logo{
-    width:4rem;
+    width:3.5rem;
 }
 .changebody:hover{
     border: 2px solid dodgerblue;

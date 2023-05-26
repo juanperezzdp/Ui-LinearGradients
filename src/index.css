@@ -64,7 +64,7 @@ option{
     border: 2px solid rgb(83, 83, 83);
     cursor: pointer;
 }
-.container-logo{
+.container-logo-img{
     display: flex;
 }
 .logo{
@@ -268,5 +268,9 @@ select{
 
     .copie-title{
         margin-left: 0;
+    }
+
+    .container-logo{
+        margin: 0 0;
     }
 }

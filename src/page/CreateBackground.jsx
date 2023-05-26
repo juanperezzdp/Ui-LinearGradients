@@ -30,6 +30,11 @@ function CreateBackground() {
       <div>
         <div className="container-col">
           <div
+            onClick={() => {
+              const text = `background: linear-gradient(220.55deg, ${colorfirst} 0%, ${colorsecondary} 100%)`;
+              setCover(text);
+              handleCopie(text);
+            }}
             className="container-background"
             style={{
               background: `linear-gradient(220.55deg, ${colorfirst} 0%, ${colorsecondary} 100%)`,
